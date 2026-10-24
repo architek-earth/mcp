@@ -1,0 +1,193 @@
+{
+  "mcpServers": {
+    "architekture-ad-intelligence-watchlist": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/ad-intelligence-watchlist",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-aldi-au-product-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/aldi-au-product-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-aldi-ie-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/aldi-ie-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-aliexpress-search-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/aliexpress-search-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-coles-au-product-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/coles-au-product-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-docparser-invoice-json": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/docparser-invoice-json",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-dunnes-ie-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/dunnes-ie-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-google-hotels-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/google-hotels-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-google-shopping-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/google-shopping-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-google-trends-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/google-trends-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-indeed-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/indeed-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-linkedin-jobs-monitor": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/linkedin-jobs-monitor",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-mercadona-es-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/mercadona-es-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-new-world-nz-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/new-world-nz-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-paknsave-nz-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/paknsave-nz-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-sainsburys-uk-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/sainsburys-uk-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-shopify-products-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/shopify-products-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-substack-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/substack-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-tennis-data-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/tennis-data-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-tesco-uk-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/tesco-uk-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-threads-replies-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/threads-replies-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-tiktok-shop-products-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/tiktok-shop-products-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-unified-transcript-api": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/unified-transcript-api",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-woolworths-au-product-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/woolworths-au-product-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-woolworths-nz-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/woolworths-nz-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-yc-companies-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/yc-companies-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-youtube-transcript-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/youtube-transcript-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    }
+  }
+}

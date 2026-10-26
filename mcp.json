@@ -49,9 +49,23 @@
         "Authorization": "Bearer ${APIFY_TOKEN}"
       }
     },
+    "architekture-google-ads-transparency-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/google-ads-transparency-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
     "architekture-google-hotels-scraper": {
       "type": "http",
       "url": "https://mcp.apify.com?tools=architekture/google-hotels-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-google-jobs-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/google-jobs-scraper",
       "headers": {
         "Authorization": "Bearer ${APIFY_TOKEN}"
       }
@@ -133,6 +147,13 @@
         "Authorization": "Bearer ${APIFY_TOKEN}"
       }
     },
+    "architekture-tennis-odds-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/tennis-odds-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
     "architekture-tesco-uk-scraper": {
       "type": "http",
       "url": "https://mcp.apify.com?tools=architekture/tesco-uk-scraper",
@@ -178,6 +199,13 @@
     "architekture-yc-companies-scraper": {
       "type": "http",
       "url": "https://mcp.apify.com?tools=architekture/yc-companies-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    },
+    "architekture-yelp-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/yelp-scraper",
       "headers": {
         "Authorization": "Bearer ${APIFY_TOKEN}"
       }

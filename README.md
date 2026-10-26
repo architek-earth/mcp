@@ -35,7 +35,7 @@ and a human reads every note. Code samples for Python, Node, curl, n8n and Make 
 ## Actors
 
 <!-- actors:start -->
-**27 live actors.** Each one is its own server entry; copy only the ones you need.
+**31 live actors.** Each one is its own server entry; copy only the ones you need.
 
 ### Ad Intelligence Watchlist
 
@@ -191,11 +191,33 @@ Server URL: `https://mcp.apify.com?tools=architekture/dunnes-ie-scraper`
 }
 ```
 
+### Google Ads Transparency Scraper
+
+Google Ads Transparency: $2/1K ads and $1.50/1K advertisers until 2026-11-24, then $5/$2.50.
+
+Price: $2.00 per 1,000 · delivered ad; status rows are free. Listing: [apify.com/architekture/google-ads-transparency-scraper](https://apify.com/architekture/google-ads-transparency-scraper).
+
+Server URL: `https://mcp.apify.com?tools=architekture/google-ads-transparency-scraper`
+
+```json
+{
+  "mcpServers": {
+    "architekture-google-ads-transparency-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/google-ads-transparency-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    }
+  }
+}
+```
+
 ### Google Hotels Scraper
 
-Google Hotels (google.com/travel/hotels) scraper: nightly prices, stay totals, currency, guest ratings, review counts, star class, amenities, property type and stay dates, by destination or hotel name with optional check-in/check-out dates.
+Google Hotels scraper at a launch price: $2.50 per 1,000 properties until 2026-11-24, then $4.00.
 
-Price: $4.00 per 1,000 · hotel property; status rows are free. Listing: [apify.com/architekture/google-hotels-scraper](https://apify.com/architekture/google-hotels-scraper).
+Price: $2.50 per 1,000 · hotel property; status rows are free. Listing: [apify.com/architekture/google-hotels-scraper](https://apify.com/architekture/google-hotels-scraper).
 
 Server URL: `https://mcp.apify.com?tools=architekture/google-hotels-scraper`
 
@@ -213,11 +235,33 @@ Server URL: `https://mcp.apify.com?tools=architekture/google-hotels-scraper`
 }
 ```
 
+### Google Jobs Scraper
+
+Google Jobs scraper for US job searches: title, company, location, salary, posting age, employment type, full description, job highlights and every apply link.
+
+Price: $3.50 per 1,000 · delivered job; status rows are free. Listing: [apify.com/architekture/google-jobs-scraper](https://apify.com/architekture/google-jobs-scraper).
+
+Server URL: `https://mcp.apify.com?tools=architekture/google-jobs-scraper`
+
+```json
+{
+  "mcpServers": {
+    "architekture-google-jobs-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/google-jobs-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    }
+  }
+}
+```
+
 ### Google Shopping Scraper
 
-Google Shopping scraper by keyword and country: title, price, sale price, merchant, rating, shipping and image per product; offers mode returns up to 5 merchant offers per product with price, delivery, total and link.
+Google Shopping scraper at a launch price: $2.00 per 1,000 products until 2026-11-24, then $3.00.
 
-Price: $3.00 per 1,000 · delivered product; status rows are free. Listing: [apify.com/architekture/google-shopping-scraper](https://apify.com/architekture/google-shopping-scraper).
+Price: $2.00 per 1,000 · delivered product; status rows are free. Listing: [apify.com/architekture/google-shopping-scraper](https://apify.com/architekture/google-shopping-scraper).
 
 Server URL: `https://mcp.apify.com?tools=architekture/google-shopping-scraper`
 
@@ -237,7 +281,7 @@ Server URL: `https://mcp.apify.com?tools=architekture/google-shopping-scraper`
 
 ### Google Trends Scraper
 
-Google Trends Trending Now searches by country (title, approximate traffic, start time, related queries) and Explore keyword reports: interest over time, interest by region and related queries for up to 20 keywords, as rows.
+Google Trends scraper for interest over time, interest by region and top and rising related queries on up to 20 keywords, plus Trending Now searches by country with traffic.
 
 Price: $1.00 per 1,000 · delivered trending now row; status rows are free. Listing: [apify.com/architekture/google-trends-scraper](https://apify.com/architekture/google-trends-scraper).
 
@@ -455,6 +499,28 @@ Server URL: `https://mcp.apify.com?tools=architekture/tennis-data-scraper`
 }
 ```
 
+### Tennis Odds Scraper
+
+Tennis odds scraper.
+
+Price: $1.50 per 1,000 · delivered price row; status rows are free. Listing: [apify.com/architekture/tennis-odds-scraper](https://apify.com/architekture/tennis-odds-scraper).
+
+Server URL: `https://mcp.apify.com?tools=architekture/tennis-odds-scraper`
+
+```json
+{
+  "mcpServers": {
+    "architekture-tennis-odds-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/tennis-odds-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    }
+  }
+}
+```
+
 ### Tesco UK Scraper
 
 Tesco UK (tesco.com) scraper: product ID, TPNB, TPNC, GTIN barcode, title, brand, price, unit price, Clubcard price, promotions, offer end date, availability, department, aisle, shelf, ratings, image, URL.
@@ -609,9 +675,31 @@ Server URL: `https://mcp.apify.com?tools=architekture/yc-companies-scraper`
 }
 ```
 
+### Yelp Scraper
+
+Yelp scraper at a launch price: $2.50 per 1,000 businesses until 2026-11-24, then $4.00.
+
+Price: $2.50 per 1,000 · delivered business; status rows are free. Listing: [apify.com/architekture/yelp-scraper](https://apify.com/architekture/yelp-scraper).
+
+Server URL: `https://mcp.apify.com?tools=architekture/yelp-scraper`
+
+```json
+{
+  "mcpServers": {
+    "architekture-yelp-scraper": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=architekture/yelp-scraper",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    }
+  }
+}
+```
+
 ### YouTube Transcript Scraper
 
-YouTube transcripts, worldwide, from youtube.com: transcript text, timestamped segments, caption language, auto-generated flag, available languages, translations, title, channel, duration and view count, by video URL or ID.
+YouTube transcripts in bulk from youtube.com: full text, timestamped caption segments, subtitles in any caption language, auto-generated flag and translations, by video URL or ID.
 
 Price: $4.00 per 1,000 · transcript; status rows are free. Listing: [apify.com/architekture/youtube-transcript-scraper](https://apify.com/architekture/youtube-transcript-scraper).
 

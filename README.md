@@ -701,7 +701,7 @@ Server URL: `https://mcp.apify.com?tools=architekture/yelp-scraper`
 
 YouTube transcripts in bulk from youtube.com: full text, timestamped caption segments, subtitles in any caption language, auto-generated flag and translations, by video URL or ID.
 
-Price: $4.00 per 1,000 · transcript; status rows are free. Listing: [apify.com/architekture/youtube-transcript-scraper](https://apify.com/architekture/youtube-transcript-scraper).
+Price: $6.00 per 1,000 · transcript; status rows are free. Listing: [apify.com/architekture/youtube-transcript-scraper](https://apify.com/architekture/youtube-transcript-scraper).
 
 Server URL: `https://mcp.apify.com?tools=architekture/youtube-transcript-scraper`
 
